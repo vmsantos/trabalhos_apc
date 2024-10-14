@@ -16,6 +16,7 @@ int main() {
     scanf("%d", &mat[i]);
   }
   for (size_t i = 0; i < n; i++) {
+    printf("i= %ld -- fib = %d, mat = %d\n",i, fib[i], mat[i]);	  
     if(mat[i] == fib[i]){
       forma = 1;
     } else{
